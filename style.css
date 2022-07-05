@@ -4,33 +4,35 @@ body {
     flex-direction: column;
     margin: 0; 
     min-height: 100vh; 
+    color: #F9FAF8;;
+    font-size: 18px;
+    box-sizing: border-box;
 }
 
 .header{
     display: flex;
     background: rgb(16, 16, 83);
-    padding: 15px;
-    font-size: 24px;
-    color: #F9FAF8;
+    flex: 1;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
-
 
 
 .container{
 display: flex;
 max-width: 1200px;
 flex: 1 1 auto;
-align-items: center;
 justify-content: space-between;
-gap: 35px;
 }
 
 
 ul{
     list-style: none;
     display: flex;
-    gap: 18px;
+    gap: 28px;
+    align-items: center;
+    font-size: 18px;
 }
 
 .hero{
@@ -40,18 +42,66 @@ ul{
     background: rgb(16,16,83);
     padding-bottom: 100px;
     gap: 25px;
-    /*background: linear-gradient(180deg, rgb(16,16,83) 15%, rgb(11, 81, 185) 100%);*/
-    color: #F9FAF8;
+    flex: 1;
+    padding: 20px;
 }
 
+
+#hero-title{
+    font-size: 48px;
+}
+
+p.hero-para{
+    color: #e5e7eb;
+}
 
 .cover-photo{
     width: 550px;
-    height: 275px;
-    opacity: 0.90;
-    border-radius: 7px;
-}
-.cover-photo:hover{
-    opacity: 1;
+    height: 290px;
+    opacity: 0.86;
+    border-radius: 9px;
 }
 
+.cover-photo:hover{
+    opacity: 1;
+    transition: 0.30s;
+}
+
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    background-color: rgb(55, 199, 243);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 17px;
+    height: 50px;
+    width: 100px;
+    font: 20px arial, white;
+    font-weight: bold;
+    box-shadow: 2px 2px rgb(215, 215, 215)
+}
+
+button:hover{
+    background-color: rgb(130, 226, 255);
+    transition: 0.30s;
+}
+button:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(16,16,83);
+    transition: 0.20s;
+
+}
+
+#logo{
+    align-self: center;
+}
+
+
+.left-welcome{
+    padding: 0;
+    margin: 0;
+}
