@@ -16,7 +16,7 @@ body {
     flex: 1;
     justify-content: center;
     align-items: center;
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 
@@ -26,7 +26,6 @@ max-width: 1200px;
 flex: 1;
 justify-content: space-between;
 padding: 15px;
-gap: 15px;
 }
 
 
@@ -36,6 +35,12 @@ ul{
     gap: 28px;
     align-items: center;
     font-size: 18px;
+}
+
+li:hover{
+    font-weight: bolder;
+    text-shadow: 2px 2px rgb(134, 134, 134);
+    transition: 0.30s;
 }
 
 .hero{
@@ -65,7 +70,7 @@ p.hero-para{
 
 .cover-photo:hover{
     opacity: 1;
-    transition: 0.30s;
+    transition: 0.15s;
 }
 
 
@@ -101,20 +106,24 @@ button:active{
     align-self: center;
 }
 
+#logo:hover{
+    font-weight: bolder;
+    font-size: 40px;
+    text-shadow: 2px 2px rgb(134, 134, 134);
+    transition: 0.55s;
+}
+
 
 .left-welcome{
     display: flex;
-    flex: 2;
+    flex: 1;
     flex-direction: column;
-    padding: 0;
-    margin: 0;
+    padding-right: 30px;
+    max-width: 70%;
 }
 
-image{
-    width: 0;
-    height: 0;
-    margin: 0;
-    padding: 0;
-    min-width: 1px;
+.cover{
+    display: flex;
+    flex: 1;
+    max-width: 450px;
 }
-
