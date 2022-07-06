@@ -4,8 +4,7 @@ body {
     flex-direction: column;
     margin: 0; 
     min-height: 100vh;
-    color: #F9FAF8;;
-    font-size: 18px;
+    /*font-size: 18px;*/
     box-sizing: border-box;
     flex: 1;
 }
@@ -17,6 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     padding-bottom: 30px;
+    color: #F9FAF8;
+    font-size: 18px;
 }
 
 
@@ -27,6 +28,7 @@ flex-wrap: wrap;
 max-width: 1200px;
 flex: 1;
 justify-content: space-between;
+
 padding: 15px;
 gap: 15px;
 }
@@ -51,8 +53,9 @@ li:hover{
     display: flex;
     justify-content: center;
     background: rgb(16,16,83);
-    padding-bottom: 100px;
+    padding-bottom: 35px;
     flex: 1;
+    color: #F9FAF8;
 }
 
 
@@ -81,6 +84,7 @@ p.hero-para{
 h1{
     margin: 0;
     padding: 0;
+    font-size: auto;   
 }
 
 button{
@@ -106,6 +110,7 @@ button:active{
 
 }
 
+
 #logo{
     align-self: center;
 }
@@ -130,4 +135,40 @@ button:active{
     display: flex;
     flex: 1;
     max-width: 450px;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 16, 83);
+    font-size: 18px;
+}
+
+
+.img-container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap: 35px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img{
+    border: 4px solid rgb(154, 231, 255);
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
